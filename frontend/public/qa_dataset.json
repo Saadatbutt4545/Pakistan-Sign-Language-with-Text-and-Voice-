@@ -1,0 +1,111 @@
+[
+  {
+    "q": "Hi, how are you?",
+    "a": "I am good, thank you. How can I help you today?"
+  },
+  {
+    "q": "What is your name?",
+    "a": "My name is PSL Helper. I am here to help you with PSL recognition and learning."
+  },
+  {
+    "q": "What is the purpose of this website?",
+    "a": "This is a Pakistan Sign Language (PSL) recognition app where you can learn and test PSL gestures using your webcam."
+  },
+  {
+    "q": "How do I use the recognition feature?",
+    "a": "Go to the Recognition page, allow camera permission when prompted, position your hand clearly in front of the camera, and follow on-screen instructions."
+  },
+  {
+    "q": "Do I need to sign in to use recognition?",
+    "a": "No. Recognition works without signing in. An account is only needed for saved preferences or future features."
+  },
+  {
+    "q": "What is Pakistan Sign Language?",
+    "a": "Pakistan Sign Language (PSL) is a sign language used by the deaf community in Pakistan. It is a visual language that uses hand gestures, facial expressions, and body language to communicate."
+  },
+  {
+    "q": "What is this website?",
+    "a": "This is a Pakistan Sign Language (PSL) recognition app where you can learn and test PSL gestures using your webcam."
+  },
+  {
+    "q": "How do I start the sign recognition?",
+    "a": "Go to the Recognition page, allow camera permission when prompted, position your hand clearly in front of the camera, and follow on-screen instructions."
+  },
+  {
+    "q": "Do I need to sign in to use recognition?",
+    "a": "Yes. Recognition works when you Sign in otherwise the app should not be worked. An account is only needed for saved preferences or future features."
+  },
+  {
+    "q": "What permissions do I need to allow?",
+    "a": "You must allow camera access in your browser. If blocked, go to your browser's site permissions and enable the camera."
+  },
+  {
+    "q": "Which signs does the model support?",
+    "a": "It supports a subset of common PSL gestures from our dataset. We will add more over time."
+  },
+  {
+    "q": "What is the accuracy of the model?",
+    "a": "Accuracy depends on lighting, camera quality, and how well the sign is framed. Good light, steady hands, and clear background improve accuracy."
+  },
+  {
+    "q": "Does the recognition run locally?",
+    "a": "Yes, the interface runs in your browser. The helper chatbot also uses a local dataset with no external APIs."
+  },
+  {
+    "q": "Is my camera feed recorded or stored?",
+    "a": "No, the camera feed is processed for recognition and not stored or sent to external services."
+  },
+  {
+    "q": "The recognition is not working. What should I try?",
+    "a": "Refresh the page, re-allow camera access, ensure good lighting, keep your hand fully in frame, and close other apps using the camera."
+  },
+  {
+    "q": "How can I improve recognition results?",
+    "a": "Ensure bright, even lighting, a plain background, stable camera, and perform the sign at a moderate speed."
+  },
+  {
+    "q": "Which devices and browsers are supported?",
+    "a": "Modern browsers like Chrome, Edge, and Firefox on desktop/laptop work best. Mobile may work but is less consistent depending on the device."
+  },
+  {
+    "q": "How do I navigate the site?",
+    "a": "Use the top navigation bar: Home, Recognition, About, and Contact. The floating chat icon helps with quick questions."
+  },
+  {
+    "q": "What is the floating chat icon?",
+    "a": "It is the PSL Helper chatbot. Click it to open a panel that answers questions about the website and how to use the model."
+  },
+  {
+    "q": "What language can I use with the chatbot?",
+    "a": "English only for now. We recommend short, clear questions for the best matches."
+  },
+  {
+    "q": "Can I train the model with my own dataset?",
+    "a": "Yes. You can prepare a labeled dataset of PSL gestures and retrain the backend model. We recommend consistent video frames or keypoints per label."
+  },
+  {
+    "q": "How do I add new Q&A to the chatbot?",
+    "a": "Edit frontend/public/qa_dataset.json and add more entries with \"q\" and \"a\" fields, then refresh the browser."
+  },
+  {
+    "q": "What format should the dataset use?",
+    "a": "A JSON array of objects: [{ \"q\": \"Question text\", \"a\": \"Answer text\" }]. Ensure valid JSON and UTF-8 encoding."
+  },
+  {
+    "q": "Where can I read more about this project?",
+    "a": "See the About page for background, goals, and future plans for PSL support."
+  },
+  {
+    "q": "How can I contact the team?",
+    "a": "Use the Contact page to send a message or find links to our social profiles."
+  },
+  {
+    "q": "Is this open source or can I contribute?",
+    "a": "We plan to open contribution guidelines. For now, reach out via Contact to express interest in contributing data or code."
+  },
+
+  {
+    "q": "What are the future plans for this project?",
+    "a": "We aim to expand the PSL gesture dataset, improve model accuracy, add more learning resources, and enhance user experience based on feedback."
+  }
+]
